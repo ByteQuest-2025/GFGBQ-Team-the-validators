@@ -26,7 +26,7 @@
   <tr>
     <td align="left"><strong>6️⃣ PPT Link</strong></td>
     <td align="left">
-      <a href="https://docs.google.com/presentation/d/your-link">📄 View Presentation Deck</a>
+      <a href="https://drive.google.com/file/d/1GCAmBzSgGGxTZW128TrlNW2cZIkMtCYq/view?usp=drive_link">📄 View Presentation Deck</a>
     </td>
   </tr>
 </table>
@@ -146,5 +146,6 @@ The application will automatically open in your default web browser at `http://l
 </div>
 
 ```
+
 
 ```
