@@ -14,7 +14,7 @@
   <tr>
     <td align="left"><strong>4️⃣ Deployed Link</strong></td>
     <td align="left">
-      <a href="#">🔗 Link to Live Project (Optional)</a>
+      <a href="#">🔗 https://gfgbq-team-the-validators-rbfwypfev6kbzqyj2ue3qi.streamlit.app/</a>
     </td>
   </tr>
   <tr>
@@ -149,3 +149,4 @@ The application will automatically open in your default web browser at `http://l
 
 
 ```
+
