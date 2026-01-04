@@ -20,7 +20,7 @@
   <tr>
     <td align="left"><strong>5️⃣ Demo Video</strong></td>
     <td align="left">
-      <a href="https://youtu.be/your-link](https://drive.google.com/file/d/1Aufy7bJBXVn50V4hxqki93o6UB3eElug/view">▶️ Watch 2-Minute Demo</a>
+      <a href="https://drive.google.com/file/d/1Aufy7bJBXVn50V4hxqki93o6UB3eElug/view">▶️ Watch 2-Minute Demo</a>
     </td>
   </tr>
   <tr>
@@ -149,5 +149,6 @@ The application will automatically open in your default web browser at `http://l
 
 
 ```
+
 
 
