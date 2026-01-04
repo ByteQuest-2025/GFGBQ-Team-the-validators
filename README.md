@@ -127,15 +127,9 @@ The application will automatically open in your default web browser at `http://l
 
 
 
----
 
-## ✅ Relevant Screenshots
 
-### 1. The Command Center Dashboard
 
-### 2. AI-Optimized Rostering & Bed Map
-
----
 
 <div align="center">
 
@@ -149,6 +143,7 @@ The application will automatically open in your default web browser at `http://l
 
 
 ```
+
 
 
 
