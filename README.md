@@ -1,52 +1,86 @@
-I apologize. I see the issue—the previous response rendered the text as "formatted" blocks, which makes it annoying to copy everything at once into a file.
+<table align="center">
+  <tr>
+    <td align="left" width="300"><strong>1️⃣ Problem Statement</strong></td>
+    <td align="left">PS 06: Predictive Hospital Resource & Emergency Load Intelligence System</td>
+  </tr>
+  <tr>
+    <td align="left"><strong>2️⃣ Project Name</strong></td>
+    <td align="left"><strong>Hospital Command Center (MediForecast Pro)</strong></td>
+  </tr>
+  <tr>
+    <td align="left"><strong>3️⃣ Team Name</strong></td>
+    <td align="left">The Validators</td>
+  </tr>
+  <tr>
+    <td align="left"><strong>4️⃣ Deployed Link</strong></td>
+    <td align="left">
+      <a href="#">🔗 Link to Live Project (Optional)</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="left"><strong>5️⃣ Demo Video</strong></td>
+    <td align="left">
+      <a href="https://youtu.be/your-link">▶️ Watch 2-Minute Demo</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="left"><strong>6️⃣ PPT Link</strong></td>
+    <td align="left">
+      <a href="https://docs.google.com/presentation/d/your-link">📄 View Presentation Deck</a>
+    </td>
+  </tr>
+</table>
 
-Here is the **Raw Source Code** for the `README.md` file. You can click "Copy" on this single block and paste it directly into your `README.md` file.
+<br>
 
-```markdown
-# 🏥 Hospital Command Center (MediForecast Pro)
+<div align="center">
 
-### 🚀 PS 06: Predictive Hospital Resource & Emergency Load Intelligence System
-**Byte Quest Hackathon Submission**
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![PuLP](https://img.shields.io/badge/PuLP-Optimization-green?style=for-the-badge)](https://pypi.org/project/PuLP/)
+
+</div>
 
 ---
 
-## 📖 Project Overview
-The **Hospital Command Center** is an intelligent decision-support system designed to transition hospital operations from **Reactive** to **Predictive**. 
+## ✅ Project Overview
 
-Currently, hospitals struggle with sudden patient surges, leading to staff burnout and resource shortages. Our solution utilizes **Machine Learning (Random Forest)** to forecast emergency admissions and **Linear Programming (PuLP)** to mathematically optimize staff allocation, ensuring hospitals are prepared *before* a crisis hits.
+**The Problem:** Hospitals currently operate on historical averages, leading to **critical staff shortages** during sudden surges and **wasted resources** during quiet periods. Furthermore, during city-wide crises, lack of coordination leads to "Patient Stacking" where one hospital is overwhelmed while another nearby is empty.
 
----
+**Our Solution:** The **Hospital Command Center** is a SaaS-ready platform that acts as a "Digital Twin" for hospital operations. It utilizes:
 
-## 💡 Key Features
-* **🧠 AI-Driven Forecasting**: Predicts daily emergency patient volume with high accuracy using historical trends, seasonality, and weekend patterns.
-* **☀️ Live Weather Integration**: Connects to the **Open-Meteo API** to fetch real-time local temperature, adjusting predictions dynamically (e.g., detecting cold snaps that trigger flu surges).
-* **📋 Optimized Staff Rostering**: Uses **Linear Programming (Optimization)** to generate the mathematically perfect shift schedule (Morning/Evening/Night) that minimizes cost while maintaining safe nurse-to-patient ratios.
-* **🚨 Smart Surge Alerts**: Automatically flags critical days where demand exceeds capacity, triggering "Overflow Protocols" for administrators.
+1.  **AI-Driven Forecasting:** Random Forest models predict patient influx using weather & calendar data.
+2.  **Resource Optimization:** Linear Programming (PuLP) mathematically minimizes staffing costs while ensuring safety ratios.
+3.  **City-Wide Load Balancing:** Automatically routes ambulances to neighboring facilities when capacity breaches 100%.
+4.  **Supply Chain Intelligence:** Forecasts Oxygen and PPE usage to prevent stockouts.
 
 ---
 
-## 🛠️ Tech Stack
-| Component | Technology | Purpose |
-| :--- | :--- | :--- |
-| **Frontend** | `Streamlit` | Interactive Web Dashboard for Hospital Admins |
-| **ML Core** | `Scikit-Learn` | Random Forest Regressor for Patient Volume Prediction |
-| **Optimization** | `PuLP` | Linear Programming for Staff Scheduling |
-| **Data Processing** | `Pandas` & `NumPy` | Data Manipulation and Synthetic Data Generation |
-| **Live Data** | `Requests` (Open-Meteo API) | Real-time Weather Data Fetching |
-| **Visualization** | `Plotly` | Interactive Charts and Trend Analysis |
+## ✅ Key Features
+
+| Feature | Description |
+| :--- | :--- |
+| **📂 SaaS Data Integration** | Any hospital can drag-and-drop their historical CSV. The system's **Retraining Pipeline** instantly builds a custom AI model for them. |
+| **🚑 Ambulance Routing** | An intelligent "Air Traffic Control" for ambulances. If ER capacity > 100%, it provides optimal diversion routes to partner hospitals. |
+| **📦 Supply Chain Forecast** | Predicts consumption of critical resources (Oxygen Cylinders, N95 Masks) based on predicted patient pathology. |
+| **📋 Mathematical Rostering** | Generates the perfect shift schedule (Morning/Evening/Night) to minimize cost while maintaining a 1:5 Nurse-to-Patient ratio. |
+| **🚨 Emergency Broadcast** | "One-Click" dispersion system to alert Dept Heads and recall off-duty staff during Mass Casualty events. |
 
 ---
 
-## ⚙️ Installation & Setup
+## ✅ Setup & Installation Instructions
 
 ### Prerequisites
 * Python 3.8 or higher installed.
 
-### Step 1: Clone or Download
-Download the project folder `Hospital_Command_Center` to your local machine.
-
+### Step 1: Clone the Repository
+```bash
+git clone [https://github.com/ByteQuest-2025/GFGBQ-Team-the-validators.git](https://github.com/ByteQuest-2025/GFGBQ-Team-the-validators.git)
+cd GFGBQ-Team-the-validators
+```
 ### Step 2: Install Dependencies
-Open your terminal/command prompt, navigate to the project folder, and run:
+
 ```bash
 pip install -r requirements.txt
 
@@ -76,59 +110,40 @@ The application will automatically open in your default web browser at `http://l
 
 ---
 
-## 🖥️ How to Use
+## ✅ Usage Instructions
 
 1. **View Live Status**: The top bar shows the system status and **Real-Time Temperature** fetched from the API for your location (Pune HQ).
 2. **Set Prediction Parameters**:
 * **Target Date**: Select a future date to forecast.
 * **Temperature**: If the date is today, it uses live sensors. If it's in the future, use the slider to simulate weather conditions (e.g., a heatwave).
+* **Mass Casualty Toggle**: Switch this ON to simulate a major disaster and see how the system handles a sudden 60% surge.
 
 
 3. **Run Analysis**: Click the **🚀 Analyze & Optimize** button.
 4. **Review Intelligence Report**:
 * **Predicted Influx**: See the exact number of expected patients.
-* **Resource Needs**: View the required ICU beds and total nursing staff.
 * **Optimized Roster**: Check the generated table for the exact number of staff needed for Morning, Evening, and Night shifts.
+* **Bed Map**: Visual grid showing occupied vs. free beds in ER, ICU, and General Wards.
 
 
 
 ---
 
-## 🧠 Methodology
+## ✅ Relevant Screenshots
 
-### 1. Data Generation (Digital Twin)
+### 1. The Command Center Dashboard
 
-Since real hospital data is protected (HIPAA/DISHA), we generate a mathematically accurate synthetic dataset (`hospital_training_data.csv`) that mimics real-world healthcare patterns:
-
-* **Seasonality**: Sine wave functions simulate winter flu peaks.
-* **Weekly Cycles**: Weighted probabilities simulate weekend trauma spikes.
-
-### 2. Predictive Modeling
-
-We train a **Random Forest Regressor** on 2 years of this historical data. The model learns non-linear relationships between:
-
-* `Temperature` vs. `Admissions` (Inverse correlation).
-* `Day_of_Week` vs. `Trauma Cases`.
-
-### 3. Resource Optimization
-
-We solve a **Minimization Problem** using Linear Programming:
-
-* **Objective**: Minimize Total Staff ().
-* **Constraint 1 (Day)**: 1 Nurse per 5 Patients.
-* **Constraint 2 (Night)**: 1 Nurse per 8 Patients.
+### 2. AI-Optimized Rostering & Bed Map
 
 ---
 
-## 🔮 Future Scope
+<div align="center">
 
-* **Bed Management Module**: Integration with IoT sensors to track real-time bed occupancy.
-* **Ambulance Routing**: AI to redirect incoming ambulances to less crowded hospitals during surges.
-* **SMS Alerts**: Twilio integration to automatically text off-duty staff during "Critical Surge" events.
+### 👨‍💻 Developed by Team: The Validators
 
----
+*Byte Quest Hackathon 2025*
 
-### 👨‍💻 Developed for Byte Quest Hackathon
+</div>
 
 ```
 

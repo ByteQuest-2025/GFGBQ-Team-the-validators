@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 
 def create_dataset():
+    print("Generating Hospital Bed History...")
     dates = pd.date_range(start="2023-01-01", end="2024-12-31")
     data = []
 
@@ -19,16 +20,21 @@ def create_dataset():
         
         total_admissions = int(volume + seasonality + weekend_spike + noise)
         
+        icu_usage = int(total_admissions * 0.15) + np.random.randint(2, 5)
+        general_ward_usage = int(total_admissions * 0.40) + np.random.randint(20, 30)
+
         data.append([
             date.strftime('%Y-%m-%d'), 
             total_admissions, 
+            icu_usage,
+            general_ward_usage,
             round(temp, 1), 
             date.weekday() >= 5
         ])
 
-    df = pd.DataFrame(data, columns=['Date', 'Admissions', 'Temp', 'Is_Weekend'])
+    df = pd.DataFrame(data, columns=['Date', 'Admissions', 'ICU_Usage', 'General_Ward_Usage', 'Temp', 'Is_Weekend'])
     df.to_csv("hospital_training_data.csv", index=False)
-    print("Dataset generated successfully.")
+    print("Dataset 'hospital_training_data.csv' generated successfully.")
 
 if __name__ == "__main__":
     create_dataset()
