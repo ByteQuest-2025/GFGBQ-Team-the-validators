@@ -14,13 +14,13 @@
   <tr>
     <td align="left"><strong>4️⃣ Deployed Link</strong></td>
     <td align="left">
-      <a href="#">🔗 https://gfgbq-team-the-validators-rbfwypfev6kbzqyj2ue3qi.streamlit.app/</a>
+      <a href="https://gfgbq-team-the-validators-rbfwypfev6kbzqyj2ue3qi.streamlit.app/">🔗 Deploy Link</a>
     </td>
   </tr>
   <tr>
     <td align="left"><strong>5️⃣ Demo Video</strong></td>
     <td align="left">
-      <a href="https://youtu.be/your-link">▶️ Watch 2-Minute Demo</a>
+      <a href="https://youtu.be/your-link](https://drive.google.com/file/d/1Aufy7bJBXVn50V4hxqki93o6UB3eElug/view">▶️ Watch 2-Minute Demo</a>
     </td>
   </tr>
   <tr>
@@ -149,4 +149,5 @@ The application will automatically open in your default web browser at `http://l
 
 
 ```
+
 
